@@ -51,8 +51,8 @@
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.4.0</muleVersion>
-						<username>Sanju6410</username>
-						<password>Sanju6410@</password>
+						<username>${cloudhub.username}</username>
+  						<password>${cloudhub.password}</password>
 						<applicationName>san</applicationName>
 						<businessGroupId>50b8e791-efa1-4e4b-8fdf-9e80af30ecf9</businessGroupId>
 						<replicas>1</replicas>
